@@ -1,9 +1,8 @@
 import requests,re,pprint
 url = 'https://vd6.l.qq.com/proxyhttp'
-
 headers = {
     'refer':'https://v.qq.com/',
-    'cookie':'',
+    'cookie':'qq_domain_video_guid_verify=ce4c32cf98b4611f; _qimei_uuid42=18b1e1436031001cec41c55f5d7ba7bb3a017a169c; _qimei_fingerprint=2c442ac4bbb0db2bc1d448a7d61743a5; pgv_pvid=4132009985; _qimei_h38=086db226ec41c55f5d7ba7bb02000005b18b1e; _qimei_q32=e201bfbcb1b50885f9ecee824c1e93a8; RK=8vdN0KaTHq; ptcz=b554771741d6d8235d35c1a6bbb28bab195539f37d51cd2f1c31ca0375ed5e4d; _qimei_q36=118003deac7101b87501c3b930001c318805; appuser=490354D1595DA285; lv_play_index=25; o_minduid=42uBvBvINLLtiE25V_gj-c0SbNwhJp5o; ad_session_id=ps6tkuy7noku2; ufc=r64_1_1732975987; pgv_info=ssid=s1120153887; vversion_name=8.2.95; video_omgid=ce4c32cf98b4611f; LPSJturn=83; LVINturn=902; LPHLSturn=834; LDERturn=163; LPPBturn=759; LZTturn=484; LPVLturn=564; LPLFturn=129',
     'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)',
 }
 json = {
