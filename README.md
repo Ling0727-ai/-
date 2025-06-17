@@ -15,6 +15,7 @@
 > >scrapy
 ---
 准备
+- 基础爬虫
 ```
 pip install requests
 
@@ -25,14 +26,14 @@ pip install fake_useragent
 pip install urllib3
 
 pip install hashlib
-
-pip install pandas
-
-pip install scrapy
+```
+- 动态页面爬虫
+```
+pip install selenium
 ```
 ---
 ___
 
 >寻找url的方式： 
 >1. F12 network
->2. 抓包工具如Fiddler、Winshark
+>2. 抓包工具如Fiddler、Wireshark
